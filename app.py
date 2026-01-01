@@ -123,7 +123,7 @@ def classify_city(city):
             }
         }
     
-        for area, cities in city_map.items():
+       for area, cities in city_map.items():
             if city in cities:
                 return area
     
@@ -394,3 +394,4 @@ if uploaded_files:
                 mime="application/pdf",
                 key="download_pdf"
             )
+
